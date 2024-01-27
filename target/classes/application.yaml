@@ -1,0 +1,9 @@
+# Couchbase connection properties
+couchbase:
+    hosts: ${COUCHBASE_HOSTNAME:``}
+    username: ${COUCHBASE_USERNAME:``} #Administrator
+    bucket:
+       name: ${COUCHBASE_BUCKETNAME:``} #travel_itinerary
+       password: ${COUCHBASE_PASSWORD:``} #admins
+
+
